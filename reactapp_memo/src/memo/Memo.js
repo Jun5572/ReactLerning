@@ -19,11 +19,14 @@ function Memo(props) {
             ))
             break;
         case "find":
-            data = memo.map((value, key)=> (
+            data = fmemo.map((value, key)=> (
                 <Item key={value.message} value={value} index={key + 1} />
             ))
             break;
         default:
+            data = memo.map((value, key)=> (
+                <Item key={value.message} value={value} index={key + 1} />
+            ))
             break;
     }
 
