@@ -4,6 +4,7 @@ import { CssModules } from "./CssModules";
 import { StyledComponents } from "./StyledComponents";
 import { StyledJsx } from "./StyledJsx";
 import { Emotion } from "./Emotion"
+import { TailwindCss } from "./TailwindCss";
 
 
 // コンポーネントは、ステートが更新されたときに再レンダリングされる！
@@ -35,6 +36,7 @@ export const App = () => {
             <StyledJsx />
             <StyledComponents />
             <Emotion />
+            <TailwindCss />
         </>
     )
 }
